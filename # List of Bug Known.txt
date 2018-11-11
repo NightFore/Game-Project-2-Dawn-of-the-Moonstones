@@ -1,0 +1,6 @@
+Store :
+No print Item Bought
+
+Fight
+if input 1, 2, 3, 4 (Game_Action_Choice) before reset
+Action()
