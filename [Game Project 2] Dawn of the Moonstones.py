@@ -384,8 +384,8 @@ def text_button(text, font):
     #Standalone
 def text_ui(text, x, y):
     font = pygame.font.SysFont("comicsansms",25)
-    GameStateIG.Text_Line_1 = font.render(text, 1, text_ui_color)
-    gameDisplay.blit(GameStateIG.Text_Line_1,  (x,y))
+    aaa1 = font.render(text, 1, text_ui_color)
+    gameDisplay.blit(aaa1,  (x,y))
     
 def text_action(text, x, y):
     font = pygame.font.SysFont("",35)
