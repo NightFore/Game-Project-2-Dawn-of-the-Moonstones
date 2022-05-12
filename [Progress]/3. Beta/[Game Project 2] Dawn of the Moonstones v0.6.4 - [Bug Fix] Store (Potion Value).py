@@ -31,8 +31,8 @@ sky_color = (153,217,234)
 ground_color = (34,177,76)
 
 
-character_player = pygame.image.load(os.path.join("data", "graphic", "character_player_iris.png"))
-background_main_menu = pygame.image.load(os.path.join("data", "graphic", "main_menu.jpg"))
+character_player = pygame.image.load(os.path.join("Data", "Image", "character_player_iris.png"))
+background_main_menu = pygame.image.load(os.path.join("Data", "Image", "main_menu.jpg"))
 
 def Game_Save():
     with open("savefile", "wb") as f:
